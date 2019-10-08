@@ -1,10 +1,10 @@
 {
   "name": "gitlab-fix-labels",
-  "version": "0.1.5",
+  "version": "0.1.5-beta.0",
   "description": "A tool to add and/or replace labels from any project (or all of them) with your GLOBAL GitLab admin labels.",
   "repository": {
     "type": "git",
-    "url": "https://git.xunn.io/package/gitlab-fix-labels"
+    "url": "https://github.com/carsonreinke/gitlab-fix-labels.git"
   },
   "main": "lib/gitlab-fix-labels.js",
   "author": "Xunnamius",
@@ -28,12 +28,9 @@
     "gitlab-fix-labels": "lib/gitlab-fix-labels.js"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "progress": "^2.0.0",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2"
-  },
-  "devDependencies": {
-    "publish-please": "^3.0.1"
+    "bluebird": "^3.7.0",
+    "progress": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }
