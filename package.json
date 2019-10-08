@@ -28,12 +28,9 @@
     "gitlab-fix-labels": "lib/gitlab-fix-labels.js"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "progress": "^2.0.0",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2"
-  },
-  "devDependencies": {
-    "publish-please": "^3.0.1"
+    "bluebird": "^3.7.0",
+    "progress": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }
